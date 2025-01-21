@@ -1,28 +1,26 @@
 import {
-  mobile,
   backend,
   creator,
+  mobile,
   web,
-  javascript,
-  typescript,
-  html,
   css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
+  python,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  html,
+  javascript,
+  nodejs,
+  reactjs,
+  tailwind,
+  typescript,
   threejs,
+  java,
+  c,
+  aws,
+  AOT,
+  amazonwebservices,
+  admin,
+  carwash,
+  ecommerce,
 } from "../assets";
 
 export const navLinks = [
@@ -81,8 +79,16 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "C++",
+    icon: c,
   },
   {
     name: "Tailwind CSS",
@@ -93,10 +99,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
@@ -105,133 +107,149 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "AWS",
+    icon: aws,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Tech360 Intern",
+    company_name: "America On Tech",
+    icon: AOT,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Aug 2022 - Sep 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Acquired skills in HTML, CSS, and Bootstrap.",
+      "Developed a portfolio of technology projects that illustrated an understanding of web development.",
+      "Presented a final group project - the creation of a mock business and an accompanying website - to technology professionals, who served as guest judges during the Demo Day Competition.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "TechFlex Leader",
+    company_name: "America On Tech",
+    icon: AOT,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Sep 2022 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Selected to take part in a year-long Advanced Web Development and UX Design fellowship program.",
+      "Completed 80+ hours of instruction in both Advanced Web Development and UX Design, to add to the skills learned over 80+ hours of coding training in HTML, CSS, JavaScript, Repl.it, and Bootstrap.",
+      "Paired with technology mentors and professionals to focus on college and career readiness skills.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Software Development Engineer Intern",
+    company_name: "Amazon Web Services (AWS)",
+    icon: amazonwebservices,
+    iconBg: "#383E56",
+    date: "Jun 2024 - Aug 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Leveraged AWS services (S3, SNS, SQS, Lambda, Glue with PySpark) in my project.",
+      "Enhanced my team's invoicing process, reducing latency and streamlining data processing time by >30%.",
+      "Delivered a final project presentation to team members, demonstrating technical enhancements in data handling that improved operational efficiency by reducing complexity in end-to-end data workflows.",
+    ],
+  },
+  {
+    title: "Data Science Fellow",
+    company_name: "America On Tech",
+    icon: AOT,
+    iconBg: "#383E56",
+    date: "Sep 2024 - Dec 2024",
+    points: [
+      "Developed predictive models using Python, SQL, and Jupyter Notebooks.",
+      "Analyzed large datasets with a focus on data consistency, deduplication, and handling missing values for improved ML reliability.",
+      "Led a 9-week team project simulating real-world client engagement, building a predictive model that increased forecasting accuracy by >25%, demonstrating practical applications of ML concepts.",
     ],
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Full-Stack E-Commerce Website Application",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a full-stack, responsive e-commerce web application using Next.js and a headless CMS (Wix JavaScript SDK) to showcase advanced product filtering, category management, and cart functionalities. Leveraged modern frameworks, state management with Zustand, and server-side rendering for optimal performance and scalability.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "WIX JavaScript SDK",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "TypeScript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "User Authentication",
+        color: "orange-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: ecommerce,
+    source_code_link: "https://github.com/SamuelIVX/ecommerceWebsite",
   },
   {
-    name: "Job IT",
+    name: "Full-Stack Admin Dashboard",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Designed a full-stack Admin Dashboard with Next.js, featuring dynamic data visualization, user management, and role-based authentication. Integrated responsive design and state management to ensure a seamless and secure user experience for administrators.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "User Authentication",
+        color: "orange-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: admin,
+    source_code_link: "https://github.com/SamuelIVX/AdminDashboard",
   },
   {
-    name: "Trip Guide",
+    name: "Car Wash Simulation",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Final project for my Data Structures & Algorithms course that simulates a Car Wash utilizing a Queue based on Linked-Nodes and OOP applications.",
     tags: [
       {
-        name: "nextjs",
+        name: "C++",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Object-Oriented Programming",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Data Structures & Algorithms",
         color: "pink-text-gradient",
       },
+      {
+        name: "Time Simulation",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Probability",
+        color: "orange-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: carwash,
+    source_code_link: "https://github.com/SamuelIVX/car_Wash_Simulation",
   },
 ];
 
