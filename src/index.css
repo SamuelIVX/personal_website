@@ -130,6 +130,33 @@
   -webkit-text-fill-color: transparent;
 }
 
+/* Purple Gradient */
+.purple-text-gradient {
+  background: #bb6bd9;
+  background: -webkit-linear-gradient(to top, #8e44ad, #bb6bd9);
+  background: linear-gradient(to top, #8e44ad, #bb6bd9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Red Gradient */
+.red-text-gradient {
+  background: #eb5757;
+  background: -webkit-linear-gradient(to top, #c0392b, #eb5757);
+  background: linear-gradient(to top, #c0392b, #eb5757);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Cyan Gradient */
+.cyan-text-gradient {
+  background: #56ccf2;
+  background: -webkit-linear-gradient(to top, #00a8cc, #56ccf2);
+  background: linear-gradient(to top, #00a8cc, #56ccf2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;

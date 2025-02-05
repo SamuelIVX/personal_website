@@ -240,6 +240,14 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
+        name: "Polymorphism",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Parallel Processing",
+        color: "cyan-text-gradient",
+      },
+      {
         name: "Time Simulation",
         color: "yellow-text-gradient",
       },
