@@ -17,9 +17,10 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import java from "./tech/java.webp";
+// import java from "./tech/java.webp";
 import c from "./tech/c++.png";
 import aws from "./tech/aws.png";
+import mysql from "./tech/mysql.png"
 
 import AOT from "./company/aot.jpeg";
 import amazonwebservices from "./company/amazonwebservices.png";
@@ -47,9 +48,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  java,
+  // java,
   c,
   aws,
+  mysql,
   AOT,
   amazonwebservices,
   admin,

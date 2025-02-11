@@ -13,9 +13,10 @@ import {
   tailwind,
   typescript,
   threejs,
-  java,
+  // java,
   c,
   aws,
+  mysql,
   AOT,
   amazonwebservices,
   admin,
@@ -79,10 +80,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Java",
-    icon: java,
-  },
-  {
     name: "Python",
     icon: python,
   },
@@ -99,7 +96,7 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "Three JS",
+    name: "ThreeJs",
     icon: threejs,
   },
   {
@@ -109,6 +106,10 @@ const technologies = [
   {
     name: "AWS",
     icon: aws,
+  },
+  {
+    name: 'MySql',
+    icon: mysql,
   },
 ];
 
