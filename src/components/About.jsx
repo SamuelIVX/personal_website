@@ -47,8 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Software developer specializing in scalable solutions, process
-        optimization, and data-driven development. Experienced in AI tools,
+        Software Engineer specializing in scalable solutions, process
+        optimization, and data-driven development. Experienced in
         application design, and dynamic web development, delivering impactful
         results across diverse projects.
       </motion.p>

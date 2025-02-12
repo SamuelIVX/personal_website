@@ -22,6 +22,7 @@ import {
   admin,
   carwash,
   ecommerce,
+  mL,
 } from "../assets";
 
 export const navLinks = [
@@ -259,6 +260,50 @@ const projects = [
     ],
     image: carwash,
     source_code_link: "https://github.com/SamuelIVX/car_Wash_Simulation",
+  },
+  {
+    name: "Machine Learning Model",
+    description:
+      "Led a team to build and train a supervised learning model for a telecom company, aimed at predicting future outcomes and driving data-driven decision-making.",
+    tags: [
+      {
+        name: "SQL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Juypter Notebooks",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Data Curation",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Machine Learning",
+        color: "cyan-text-gradient",
+      },
+      {
+        name: "Principal Component Analysis",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Hyperparameter Optimization",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Random Forest",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Gradient Boosting",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mL,
   },
 ];
 
